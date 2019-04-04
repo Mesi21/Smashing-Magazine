@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700,800,900');
+*{
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Muli', sans-serif;
+}
+h1 {
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 41%;
+    font-size: 20.44px;
+    font-weight: bold;
+    padding: 2px;
+}
+.main-header {
+    min-height: 95px;
+    font-size: 20.44px;
+    display: grid;
+    background-color: #fff;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    column-gap: 10px;
+    font-weight: bold;
+    color: white; 
+}
+.header{
+    padding: 30px;
+    text-align: center;
+    background-color: red;
+}
+.header button{
+    border-radius:9px;
+    background-image: linear-gradient(#282634,#123456);
+    color: white;
+}
+.column-2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    color: white;
+    height: 500px; 
+    grid-gap: 10px 10px;
+    background-color: #fff;
+    font-weight: bold;
+    padding-top: 2px;
+}
+.col-1 {
+    width: 100%;
+    text-align: center;
+    font-size: 20.44px;
+    background-color: purple;
+    height: 100%;
+    padding-top: 95px;
+}
+#third {
+    width: 100%;
+    text-align: center;
+    font-size: 20.44px;
+    background-image: linear-gradient(#282634,#123456);
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    display: flex;
+    color: white;
+    font-weight: bold;
+}
+.column-3 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: black;
+    height: 500px; 
+    grid-column-gap: 10px;
+    background-color: white;
+    font-weight: bold;
+    padding-top: 2px;
+}
+.col-2 {
+    width: 100%;
+    text-align: center;
+    font-size: 20.44px;
+    background-color: burlywood;
+    height: 100%;
+    padding-top: 95px;
+}
+.disproportion {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    height: 500px; 
+    grid-column-gap: 10px;
+    background-color: white;
+    padding-top: 2px;
+}
+.col-3 {
+    width: 100%;
+    text-align: center;
+    font-size: 20.44px;
+    background-color: rgb(47, 155, 122);
+    height: 100%;
+    padding-top: 95px;
+}
+.row1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-weight: bold;
+    height: 200px; 
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.big{
+    width: 100%;
+    height: 600px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #123456;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    line-height: 2em;
+}
+.big2{
+    width: 100%;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    margin: 0px;
+}
+.big2 img{
+    border: 2px solid red;
+}
+.big2 p{
+    padding: 0px 20px;
+}
+.row{
+    display: grid;
+    grid-template-columns: auto auto;
+    color: white;
+    height: 500px; 
+    grid-gap: 10px 10px;
+    background-color: #fff;
+    font-weight: bold;
+    padding-top: 2px;
+    width: 100%;
+}
+.col-4 {
+    width: 100%;
+    font-size: 20.44px;
+    background-color: rgb(47, 155, 122);
+    height: 100%;
+    text-align: start;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+.column-4{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: white;
+    height: 500px; 
+    grid-gap: 10px 10px;
+    background-color: #fff;
+    font-weight: bold;
+    padding-top: 2px;
+}
+.col-5{
+    background-color: darkolivegreen;
+    width: 100%;
+    text-align: center;
+    font-size: 20.44px;
+    height: 100%;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+.footer {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    color: white; 
+    background-color: cornflowerblue;
+}
+.footer ul {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.footer ul li {
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
