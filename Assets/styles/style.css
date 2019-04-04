@@ -1,21 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700,800,900');
 *{
     -webkit-box-sizing: border-box; 
     -moz-box-sizing: border-box; 
     box-sizing: border-box;
 }
 body{
-
+    font-family: 'Muli', sans-serif;
 }
-.header {
-    text-align: center;
+.main-header {
     min-height: 95px;
-    width: 100%;
     font-size: 20.44px;
-    background-color: brown;
-    display: flex;
+    display: grid;
+    background-color: #fff;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    column-gap: 10px;
     color: white; 
-    justify-content: center;
-    align-items: center;
+}
+.header{
+    padding: 30px;
+    text-align: center;
+    background-color: red;
 }
 .row {
     width: 100%;
@@ -89,6 +93,7 @@ body{
     display: flex;
     height: 480px;
     margin: 20px 50px 0px 20px;
+    border: 1 px solid saddlebrown;
 }
 #last{
     margin-top: 0px;
@@ -126,7 +131,7 @@ body{
     color: black;
     font-size: 18px;
     text-align: center;
-    margin: 0px 20px;
+    margin: 0px;
 }
 .big2 img{
     border: 2px solid red;
@@ -185,7 +190,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-@import url('https://fonts.googleapis.com/css?family=Muli:400,700,800,900');
-font-family: 'Muli', sans-serif;
+
+
 
 
